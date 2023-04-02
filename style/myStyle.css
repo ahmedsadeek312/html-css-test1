@@ -1,0 +1,406 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  height: 100vh;
+  background: red;
+  width: 20%;
+  position: fixed;
+}
+.nav h2 {
+  color: white;
+  padding-top: 40%;
+  padding-left: 10%;
+  font-size: 1.5rem;
+  font-weight: 400;
+  position: absolute;
+}
+.nav li a {
+  position: absolute;
+  cursor: pointer;
+  list-style: none;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+}
+.nav ul {
+  padding-top: 70%;
+}
+.nav li {
+  padding-top: 2rem;
+  padding-left: 2rem;
+  width: 100%;
+  left: 10px;
+  /* text-align: center; */
+}
+.nav li a:hover {
+  color: black;
+  background-color: #f1f1f1;
+  width: 80%;
+  text-align: left;
+}
+#Home h1 {
+  position: absolute;
+  left: 25%;
+  top: 100px;
+  font-weight: 600;
+  font-size: 3rem;
+}
+#ShowCase {
+  position: relative;
+  left: 25%;
+  top: 200px;
+  width: 75%;
+}
+#ShowCase h2 {
+  font-weight: 600;
+  font-size: 3rem;
+  color: brown;
+}
+#ShowCase span {
+  content: "";
+  width: 50px;
+  height: 5px;
+  background-color: brown;
+  position: absolute;
+  top: 50px;
+}
+#ShowCase span:hover {
+  width: 100px;
+  transition: width 0.8s;
+}
+.images {
+  position: relative;
+  padding-top: 50px;
+}
+.images .img1 {
+  width: 42%;
+  height: 400px;
+  opacity: 0.7;
+}
+.images .img2 {
+  left: 40%;
+  width: 42%;
+  height: 400px;
+  opacity: 0.7;
+}
+.images .img3 {
+  width: 42%;
+  height: 400px;
+  opacity: 0.7;
+}
+.images .img4 {
+  left: 40%;
+  width: 42%;
+  height: 400px;
+  opacity: 0.7;
+}
+.images .img5 {
+  width: 42%;
+  height: 400px;
+  opacity: 0.7;
+}
+.images .img6 {
+  left: 40%;
+  width: 42%;
+  height: 400px;
+  opacity: 0.7;
+}
+.images img:hover {
+  opacity: 1;
+}
+#Services {
+  position: relative;
+  top: 300px;
+  width: 60%;
+  left: 25%;
+  right: 150px;
+}
+#Services h2 {
+  font-size: 50px;
+  color: brown;
+}
+#Services span {
+  content: "";
+  width: 50px;
+  height: 5px;
+  position: absolute;
+  background-color: brown;
+}
+#Services span:hover {
+  width: 100px;
+  transition: width 0.8s;
+}
+.first_p,
+.sec_p {
+  font-size: 20px;
+  font-weight: 300;
+}
+#Designers {
+  position: relative;
+  top: 400px;
+  left: 25%;
+  width: 60%;
+}
+#Designers h2 {
+  color: brown;
+  font-size: 50px;
+}
+#Designers span {
+  content: "";
+  position: absolute;
+  background-color: brown;
+  width: 50px;
+  height: 5px;
+  margin-top: 3px;
+}
+#Designers span:hover {
+  width: 100px;
+  transition: width 0.8s;
+}
+.cards {
+  position: relative;
+}
+.card1,
+.card2,
+.card3 {
+  margin-top: 50px;
+  position: absolute;
+  width: 35%;
+  height: 350px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  background-color: #f1f1f1;
+}
+.card1 h3,
+.card2 h3,
+.card3 h3 {
+  padding-top: 10px;
+  text-align: center;
+}
+.card1 p:first-of-type,
+.card2 p:first-of-type,
+.card3 p:first-of-type {
+  color: gray;
+  padding-top: 10px;
+  text-align: center;
+}
+.card1 p:last-of-type,
+.card2 p:last-of-type,
+.card3 p:last-of-type {
+  padding-top: 10px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+.card2 {
+  left: 39%;
+}
+.card3 {
+  left: 78%;
+}
+#Packages {
+  position: relative;
+  top: 950px;
+  left: 25%;
+  right: 200px;
+  width: 70%;
+}
+#Packages h2 {
+  color: brown;
+  font-size: 50px;
+  font-weight: 600;
+}
+#Packages .sty {
+  position: absolute;
+  content: "";
+  background-color: brown;
+  width: 50px;
+  height: 5px;
+}
+#Packages span:hover {
+  width: 100px;
+  transition: width 0.8s;
+}
+#Packages p {
+  font-size: 20px;
+  margin-top: 50px;
+}
+.table {
+  position: relative;
+}
+.Basic_table {
+  background-color: #f1f1f1;
+  display: inline-block;
+  height: 650px;
+  width: 40%;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+.Pro_table {
+  background-color: #f1f1f1;
+  display: inline-block;
+  height: 600px;
+  width: 40%;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+#main_Basic {
+  position: absolute;
+  top: 0%;
+  height: 70px;
+  text-align: center;
+  font-size: 100px;
+  font-weight: 800;
+  background-color: #616161 !important;
+  width: 40%;
+}
+#main_Pro {
+  position: absolute;
+  top: 0;
+  height: 70px;
+  text-align: center;
+  font-size: 100px;
+  font-weight: 800;
+  background-color: #f44336 !important;
+  width: 40%;
+}
+.h4_1 {
+  position: absolute;
+  top: 170px;
+  height: 70px;
+  text-align: center;
+  width: 40%;
+}
+.h4_2 {
+  position: absolute;
+  top: 240px;
+  height: 70px;
+  text-align: center;
+  width: 40%;
+}
+.h4_3 {
+  position: absolute;
+  top: 310px;
+  height: 70px;
+  text-align: center;
+  width: 40%;
+}
+.h4_4 {
+  position: absolute;
+  top: 380px;
+  height: 70px;
+  text-align: center;
+  width: 40%;
+}
+.h4_5 {
+  position: absolute;
+  top: 450px;
+  height: 70px;
+  text-align: center;
+  width: 40%;
+}
+
+.Basic_table h1,
+.Pro_table h1 {
+  position: absolute;
+  top: 520px;
+  height: 70px;
+  text-align: center;
+  width: 40%;
+}
+.Basic_table h3,
+.Pro_table h3 {
+  color: gray;
+  position: absolute;
+  top: 546px;
+  height: 70px;
+  text-align: center;
+  width: 40%;
+}
+
+.btn_Basic {
+  position: absolute;
+  cursor: pointer;
+  background-color: white;
+  top: 600px;
+  height: 70px;
+  text-align: center;
+  width: 20%;
+  border: 0;
+  left: 16%;
+  font-size: 20px;
+}
+.btn_Basic:hover {
+  background-color: black;
+  color: wheat;
+}
+.btn_Pro {
+  position: absolute;
+  cursor: pointer;
+  background-color: #f44336;
+  color: white;
+  top: 600px;
+  height: 70px;
+  text-align: center;
+  width: 20%;
+  border: 0;
+  left: 63%;
+  font-size: 20px;
+}
+.btn_Pro:hover {
+  background-color: black;
+}
+#contact {
+  position: relative;
+  top: 950px;
+  left: 25%;
+  right: 200px;
+  width: 70%;
+}
+#contact h2 {
+  margin-top: 100px;
+  color: brown;
+  font-size: 50px;
+}
+#contact span {
+  content: "";
+  width: 50px;
+  height: 5px;
+  background-color: brown;
+  position: absolute;
+}
+#contact span:hover {
+  width: 100px;
+  transition: width 0.8s;
+}
+#contact .myp {
+  margin-top: 50px;
+  font-size: 20px;
+}
+#contact form p:first-of-type {
+  margin-top: 50px;
+}
+form p {
+  font-size: 20px;
+}
+form input {
+  width: 100%;
+  height: 30px;
+}
+.send {
+  color: white;
+  background-color: #f44336;
+  width: 100%;
+  height: 50px;
+  border: 0;
+  font-size: 20px;
+  margin-bottom: 100px;
+  cursor: pointer;
+}
+.send:hover {
+  color: black;
+  background-color: #d1cccc;
+}
